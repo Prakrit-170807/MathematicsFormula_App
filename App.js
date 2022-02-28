@@ -10,21 +10,17 @@ import {
   ViewStyle,
   SafeAreaProvider,
 } from 'react-native';
-import { Header , HeaderProps, Icon } from 'react-native-elements';
+import { Header, HeaderProps, Icon } from 'react-native-elements';
 import { NavigationContainer } from "@react-navigation/native";
-import DrawerNavigation from "./navigation/DrawerNavigation" 
+import DrawerNavigation from "./navigation/DrawerNavigation"
 
 export default class App extends React.Component {
   render() {
     return (
-    //     <View>
-    //   <Header
-    //     centerComponent={{ text: 'Header' }}/>
-    // </View>
 
-      <NavigationContainer>
-        <DrawerNavigation/>
-      </NavigationContainer>
+        <NavigationContainer>
+          <DrawerNavigation />
+        </NavigationContainer>
     )
   }
 }
@@ -37,4 +33,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header : {
+    backgroundColor: '#000000'
+  }
 });
