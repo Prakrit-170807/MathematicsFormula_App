@@ -1,2 +1,5 @@
 # MathematicsFormula_App
  A basic app for maths formulas of 2D and 3d shapes 
+
+Hi Prakrit here
+After my brainstorming session I have settled on a Maths Formula App which using the drawer navigation divides the shapesin 2D tand 3D. this helps in may situations in our life. Recalling a simple formula u learnt in previous grade and feel too lazy to type it whole thing down to google simply oprn the app and with barely 3 clicks u can see the required forumal of the shape. As user convinience is a joke, when the user open the app first time he/she will the prompted with a application form for MIT. If they fail that they (our "kind" user) they will be diowned my the human race. (NOTE: please take the last to lines Sarcastically). The app is disigned keeping software engineers at mind making it Incredibly easy to use. also the app is open source so u can just fork it and make ur own acute version of it and i will 100% not be jellous🥲. Also please feel free to star my repo. 
