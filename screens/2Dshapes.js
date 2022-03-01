@@ -7,7 +7,16 @@ import {
   Animated,
   ScrollView,
   Button,
+  Image,
 } from 'react-native';
+import {
+  createDrawerNavigator,
+  DrawerContentScrollView,
+  DrawerItemList,
+  DrawerItem,
+} from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Feather';
 
 export default class twoDshapes extends Component {
   constructor(props) {
@@ -20,6 +29,7 @@ export default class twoDshapes extends Component {
       titleWidth: 0,
     };
   }
+  
 
   componentDidMount() {
     this.state.scrollOffset.addListener(({ value }) => (this.offset = value));
@@ -31,13 +41,29 @@ export default class twoDshapes extends Component {
     this.state.scrollOffset.setValue(offset);
   };
 
-  getListItems () {
-    <View style={[ styles.listItem,]}>
-    <Text style={{ color: '#999' }}>square</Text>
-  </View>
+  getListItems = count => {
+    const items = [];
+    let i = 0;
+
+    while (i < count) {
+      i++;
+
+      items.push(
+        <View
+          style={[
+            styles.listItem,
+            { backgroundColor: i % 2 === 0 ? '#eee5ff' : '#ceebfd' },
+          ]}>
+          <Text style={{ color: '#999' }}>{`List Item ${i}`}</Text>
+        </View>
+      );
+    }
+
+    return items;
   };
 
- 
+  Feed({ navigation }) {}
+
   render() {
     const { scrollOffset } = this.state;
     const screenWidth = Dimensions.get('window').width;
@@ -68,12 +94,13 @@ export default class twoDshapes extends Component {
               fontWeight: 'bold',
               color: 'whitesmoke',
               fontSize: scrollOffset.interpolate({
-                inputRange: [0,200],
+                inputRange: [0, 200],
                 outputRange: [26, 20],
                 extrapolate: 'clamp',
               }),
             }}>
-              Two Dimensions Shapes
+              <Icon.Button name="more-vertical" size={30}  backgroundColor="#F9AF56" color="#900"  > Two Dimensions Shapes</Icon.Button>
+            
           </Animated.Text>
           <Animated.View
             style={{
@@ -87,7 +114,15 @@ export default class twoDshapes extends Component {
         </Animated.View>
 
         <ScrollView style={{ flex: 1, width: '100%' }} contentContainerStyle={{ width: '100%' }} onScroll={this.onScroll} scrollEventThrottle={20}>
-          {this.getListItems}          
+            <View>
+          <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
+          <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
+          </View>
+          <View>
+            <Text>hi hello  </Text>
+          <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
+          <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
+          </View>
         </ScrollView>
       </View>
     );
@@ -99,7 +134,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#ecf0f1',
-    justifyContent: 'center', 
+    justifyContent: 'center',
   },
   header: {
     backgroundColor: '#F9AF56',

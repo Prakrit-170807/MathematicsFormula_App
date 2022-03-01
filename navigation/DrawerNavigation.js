@@ -21,13 +21,10 @@ const Drawer = createDrawerNavigator();
 
 function CustomDrawerContent(props) {
     return (
-
         <DrawerContentScrollView {...props}>
-            
             <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
             <DrawerItemList {...props} />
         </DrawerContentScrollView>
-
     );
 }
 
@@ -39,6 +36,7 @@ const DrawerNavigation = () => {
                     backgroundColor: '#81B17C',
                     width: 280,
                 },
+                headerShown: false,
             }}>
             <Drawer.Screen name="Home" component={Home} />
             <Drawer.Screen name="Two Dimentsional shapes " component={twoDshapes} />
