@@ -22,7 +22,7 @@ const Drawer = createDrawerNavigator();
 function CustomDrawerContent(props) {
     return (
         <DrawerContentScrollView {...props}>
-            <Image style={{ width: 200, height: 200 }} source={require('../assets/appicon.png')} />
+            <Image style={{ width: 280, height:120 }} source={require('../assets/navigatorbanner.png')} />
             <DrawerItemList {...props} />
         </DrawerContentScrollView>
     );
@@ -33,7 +33,7 @@ const DrawerNavigation = () => {
         <Drawer.Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}
             screenOptions={{
                 drawerStyle: {
-                    backgroundColor: '#81B17C',
+                    backgroundColor: '#56A398',
                     width: 280,
                 },
                 headerShown: false,
