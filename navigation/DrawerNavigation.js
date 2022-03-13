@@ -22,8 +22,9 @@ const Drawer = createDrawerNavigator();
 function CustomDrawerContent(props) {
     return (
         <DrawerContentScrollView {...props}>
-            <Image style={{ width: 280, height:120 }} source={require('../assets/navigatorbanner.png')} />
+            <Image style={{ width: 280, height: 120 }} source={require('../assets/navigatorbanner.png')} />
             <DrawerItemList {...props} />
+
         </DrawerContentScrollView>
     );
 }
@@ -35,8 +36,11 @@ const DrawerNavigation = () => {
                 drawerStyle: {
                     backgroundColor: '#56A398',
                     width: 280,
+
                 },
                 headerShown: false,
+                drawerActiveTintColor: "#80D4BD" ,
+                drawerActiveBackgroundColor: '#FFFFFF',
             }}>
             <Drawer.Screen name="Home" component={Home} />
             <Drawer.Screen name="Two Dimentsional shapes " component={twoDshapes} />
