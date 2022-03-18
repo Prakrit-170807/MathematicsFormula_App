@@ -124,8 +124,8 @@ export default class twoDshapes extends Component {
             >
 
               <Image style={{ width: 250, height: 250, marginTop: 10, position: 'relative' }} source={require('../assets/square/square.png')} />
-              <Image style={{ width: 160, height: 35, marginTop: 10, position: 'relative', marginLeft: 3 }} source={require('../assets/square/SQUAREtxt.png')} />
-              <Image style={{ width: 200, height: 240, marginLeft: 10, marginTop: 30, marginBottom: 30 }} source={require('../assets/square/mainsquare.png')} />
+              <Image style={{ width: 160, height: 35, marginTop: 10, position: 'relative', marginLeft: 3 }} source={require('../assets/square/text.png')} />
+              <Image style={{ width: 200, height: 240, marginLeft: 10, marginTop: 30, marginBottom: 30 }} source={require('../assets/square/main.png')} />
             </View>
             <View
               style={{
@@ -133,9 +133,9 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 300, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/rectangle/rectangel.png')} />
-              <Image style={{ width: 200, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/rectangle/RECTANGLEtxt.png')} />
-              <Image style={{ width: 320, height: 150, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/rectangle/mainrectangle.png')} />
+              <Image style={{ width: 300, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/rectangle/rectangle.png')} />
+              <Image style={{ width: 200, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/rectangle/text.png')} />
+              <Image style={{ width: 320, height: 150, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/rectangle/Main.png')} />
             </View>
             <View
               style={{
@@ -143,8 +143,8 @@ export default class twoDshapes extends Component {
               }}
             >
               <Image style={{ width: 280, height: 280, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/triangle/triangle.png')} />
-              <Image style={{ width: 180, height: 40, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/triangle/TRIANGLEtxt.png')} />
-              <Image style={{ width: 305, height: 169, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/triangle/maintriangle.png')} />
+              <Image style={{ width: 180, height: 40, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/triangle/text.png')} />
+              <Image style={{ width: 305, height: 169, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/triangle/main.png')} />
             </View>
             <View
               style={{
@@ -152,18 +152,18 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 380, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/parallelogram/parallerlgram.png')} />
-              <Image style={{ width: 280, height: 36, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/parallelogram/Parallelogramtxt.png')} />
-              <Image style={{ width: 360, height: 200, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/parallelogram/mainparallelogram.png')} />
+              <Image style={{ width: 380, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/parallelogram/parallelogram.png')} />
+              <Image style={{ width: 280, height: 36, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/parallelogram/text.png')} />
+              <Image style={{ width: 300, height: 165, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/parallelogram/main.png')} />
             </View>
             <View
               style={{
                 backgroundColor: "#009698"
               }}
             >
-              <Image style={{ width: 350, height: 280, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/trapezium/Trapezium.png')} />
-              <Image style={{ width: 180, height: 40, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/trapezium/Trapeziumtxt.png')} />
-              <Image style={{ width: 305, height: 169, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/trapezium/maintrapezium.png')} />
+              <Image style={{ width: 360, height: 230, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/trapezium/trapezium.png')} />
+              <Image style={{ width: 190, height: 36, marginTop:   10, position: 'relative', marginLeft: 10 }} source={require('../assets/trapezium/text.png')} />
+              <Image style={{ width: 326, height: 170, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/trapezium/main.png')} />
             </View>
             <View
               style={{
@@ -171,9 +171,9 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 300, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/circle/Circle.png')} />
-              <Image style={{ width: 200, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/circle/CIRCLEtxt.png')} />
-              <Image style={{ width: 320, height: 150, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/circle/maincircle.png')} />
+              <Image style={{ width: 300, height: 280, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/circle/circle.png')} />
+              <Image style={{ width: 160, height: 36, marginTop: 10, position: 'relative', marginLeft: 10 }} source={require('../assets/circle/text.png')} />
+              <Image style={{ width: 150, height: 190, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/circle/main.png')} />
             </View>
           </ScrollView>
         </View>
