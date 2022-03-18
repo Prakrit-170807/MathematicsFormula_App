@@ -103,7 +103,7 @@ export default class twoDshapes extends Component {
                 }),
               }}>
               <Icon.Button name="more-vertical" size={30} backgroundColor="#00131A" color="#fff" onPress={this.props.navigation.openDrawer} iconStyle={{ marginLeft: -15, marginRight: -10, marginBottom: -12 }}></Icon.Button>
-              <Image source={require('../assets/TWODIMENSIONALSHAPES.png')} style={{ width: 330, height: 23, resizeMode: "Absolute", MarginBottom: 900, }} />
+              <Image source={require('../assets/THREEDIMENSIONALSHAPES.png')} style={{ width: 330, height: 23, resizeMode: "Absolute", MarginBottom: 900, }} />
             </Animated.Text>
             <Animated.View
               style={{
