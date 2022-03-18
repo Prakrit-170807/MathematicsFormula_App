@@ -123,9 +123,9 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 250, height: 250, marginTop: 10, position: 'relative' }} source={require('../assets/square/square.png')} />
-              <Image style={{ width: 160, height: 35, marginTop: 10, position: 'relative', marginLeft: 3 }} source={require('../assets/square/text.png')} />
-              <Image style={{ width: 200, height: 240, marginLeft: 10, marginTop: 30, marginBottom: 30 }} source={require('../assets/square/main.png')} />
+              <Image style={{ width: 300, height: 330, marginTop: 10, marginLeft: 10, position: 'relative' }} source={require('../assets/cube/cube.png')} />
+              <Image style={{ width: 130, height: 40, marginTop: 10, position: 'relative', marginLeft: 3 }} source={require('../assets/cube/text.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 30, marginBottom: 30 }} source={require('../assets/cube/main.png')} />
             </View>
             <View
               style={{
@@ -133,18 +133,18 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 300, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/rectangle/rectangle.png')} />
-              <Image style={{ width: 200, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/rectangle/text.png')} />
-              <Image style={{ width: 320, height: 150, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/rectangle/Main.png')} />
+              <Image style={{ width: 340, height: 300, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/cuboid/cuboid.png')} />
+              <Image style={{ width: 180, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/cuboid/text.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/cuboid/main.png')} />
             </View>
             <View
               style={{
                 backgroundColor: "#009698"
               }}
             >
-              <Image style={{ width: 280, height: 280, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/triangle/triangle.png')} />
-              <Image style={{ width: 180, height: 40, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/triangle/text.png')} />
-              <Image style={{ width: 305, height: 169, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/triangle/main.png')} />
+              <Image style={{ width: 260, height: 450, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/cylinder/cylinder.png')} />
+              <Image style={{ width: 210, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/cylinder/text.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/cylinder/main.png')} />
             </View>
             <View
               style={{
@@ -152,28 +152,20 @@ export default class twoDshapes extends Component {
               }}
             >
 
-              <Image style={{ width: 380, height: 200, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/parallelogram/parallelogram.png')} />
-              <Image style={{ width: 280, height: 36, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/parallelogram/text.png')} />
-              <Image style={{ width: 300, height: 165, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/parallelogram/main.png')} />
+              <Image style={{ width: 340, height: 430, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/cone/cone.png')} />
+              <Image style={{ width: 180, height: 50, marginTop: -10, position: 'relative', marginLeft: 10 }} source={require('../assets/cone/text.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/cone/main.png')} />
             </View>
             <View
               style={{
                 backgroundColor: "#009698"
               }}
             >
-              <Image style={{ width: 360, height: 230, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/trapezium/trapezium.png')} />
-              <Image style={{ width: 190, height: 36, marginTop:   10, position: 'relative', marginLeft: 10 }} source={require('../assets/trapezium/text.png')} />
-              <Image style={{ width: 326, height: 170, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/trapezium/main.png')} />
-            </View>
-            <View
-              style={{
-                backgroundColor: "#006176"
-              }}
-            >
-
-              <Image style={{ width: 300, height: 280, marginTop: 10, marginLeft: 8, position: 'relative' }} source={require('../assets/circle/circle.png')} />
-              <Image style={{ width: 160, height: 36, marginTop: 10, position: 'relative', marginLeft: 10 }} source={require('../assets/circle/text.png')} />
-              <Image style={{ width: 150, height: 190, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/circle/main.png')} />
+              <Image style={{ width: 360, height: 360, marginTop: 10, marginLeft: 3, position: 'relative' }} source={require('../assets/sphere_hemisphere/hemi_shpere.png')} />
+              <Image style={{ width: 190, height: 50, marginTop:   10, position: 'relative', marginLeft: 10 }} source={require('../assets/sphere_hemisphere/text.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/sphere_hemisphere/main.png')} />
+              <Image style={{ width: 260, height: 50, marginTop:   10, position: 'relative', marginLeft: 10 }} source={require('../assets/sphere_hemisphere/text2.png')} />
+              <Image style={{ width: 400, height: 260, marginLeft: 10, marginTop: 20, marginBottom: 30 }} source={require('../assets/sphere_hemisphere/main2.png')} />
             </View>
           </ScrollView>
         </View>
